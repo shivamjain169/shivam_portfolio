@@ -1,9 +1,9 @@
 export const profile = {
   name: 'Shivam Jain',
   title: 'Full-Stack Developer',
-  headline: 'Full-Stack Developer specializing in real-time, high-throughput systems',
-  subheadline: '3 years experience | React • FastAPI • Flask • WebSockets • Microservices • PostgreSQL • Azure • Observability',
-  description: 'End-to-end delivery specialist focused on performance optimization, real-time systems architecture, and observability. Passionate about writing maintainable, reliable code that achieves measurable performance improvements and building consistent design systems with robust logging and monitoring.',
+  headline: 'Full-Stack Engineer building AI-powered systems with real-time architectures',
+  subheadline: '3 years experience | React • FastAPI • Flask • Python • JavaScript • WebSockets • Celery • Microservices • Microfrontend • PostgreSQL • Airflow • Azure • Observability',
+  description: 'Full-stack engineer with a strong backend specialization, focused on designing and delivering scalable, real-time systems. Experienced in performance optimization, distributed architectures, and observability-driven development, with a strong emphasis on maintainable code and measurable business impact.',
   email: 'shivamjain169@gmail.com',
   phone: '+91-7415131511',
   location: 'India',
@@ -12,17 +12,18 @@ export const profile = {
   resumeUrl: 'https://drive.google.com/file/d/1AWkghsTEFn713AUnAo0qyPjwmLrtlWsI/view?usp=drive_link', // Add your resume PDF to the public folder
 
   impactHighlights: [
-    '35–40% faster CPU workflows',
-    'Database queries improved 50%',
-    'Frontend performance +30%',
-    'Real-time WebSocket systems',
-    'Azure cloud deployments'
+    '35–40% faster CPU-intensive workflows',
+    'Up to 50% database query optimization',
+    'Frontend performance improved by ~30%',
+    'Production-grade real-time WebSocket systems',
+    'Enterprise deployments on Azure & Linux'
   ],
 
-  about: [
-    'I\'m a Full-Stack Developer with 3 years of experience building scalable React + FastAPI platforms with measurable performance gains. I specialize in end-to-end delivery, performance optimization, and real-time systems architecture.',
-    'My work focuses on achieving concrete results: reducing CPU workloads by 35-40%, optimizing database queries by 50%, and improving frontend performance by 30%. I\'ve built WebSocket pipelines for live updates, implemented parallel processing systems, and designed microservices architectures.',
-    'I\'m passionate about building maintainable, reliable code with robust observability. I leverage modern AI-assisted development tools like GitHub Copilot and Cursor to accelerate development while maintaining code quality.',
-    'My approach combines technical depth with business impact—every line of code should solve a real problem and deliver measurable value.'
+   about: [
+    'I’m a Full-stack developer with over 3 years of experience building scalable React and FastAPI-based platforms focused on performance, reliability, and real-time user experiences.',
+    'My work centers on measurable outcomes-reducing CPU workloads by 35-40%, optimizing database queries by up to 50%, and improving frontend performance by around 30% through architectural and performance-focused improvements.',
+    'I have hands-on experience designing microservices architectures, real-time WebSocket pipelines, and AI-assisted workflows for automating complex, previously manual processes.',
+    'I strongly value clean architecture, observability, and long-term maintainability. I actively leverage AI-assisted development tools such as GitHub Copilot and Cursor to accelerate development while maintaining high code quality and system reliability.',
+    'My approach combines technical depth with business impact: every system I build is designed to scale, perform, and solve real-world problems effectively.'
   ]
 };
