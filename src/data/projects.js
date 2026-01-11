@@ -48,36 +48,36 @@ export const projects = [
     featured: true,
     category: ['Frontend', 'Design']
   },
-  {
-    id: 'websocket-pipeline',
-    title: 'Real-Time WebSocket Pipeline',
-    subtitle: 'Enterprise Application',
-    description: 'High-performance WebSocket infrastructure for real-time data streaming in healthcare applications',
-    problem: 'Need for instant data updates in medical review workflows without page refreshes',
-    solution: 'Designed and implemented scalable WebSocket pipeline with FastAPI backend and React frontend, handling concurrent connections efficiently',
-    tech: ['FastAPI', 'WebSockets', 'React', 'Redis', 'PostgreSQL'],
-    outcome: 'Enabled real-time collaboration features, improving workflow efficiency by 40%',
-    image: '/projects/websocket.png',
-    links: {
-      caseStudy: '/projects/websocket-pipeline'
-    },
-    featured: false,
-    category: ['Backend', 'Real-time']
-  },
-  {
-    id: 'microservices-platform',
-    title: 'Microservices Architecture Migration',
-    subtitle: 'System Design',
-    description: 'Designed and implemented microservices architecture for file processing and metadata management',
-    problem: 'Monolithic architecture causing scalability issues and deployment bottlenecks',
-    solution: 'Broke down monolith into focused microservices with clear boundaries, implemented BFF pattern for optimized payloads',
-    tech: ['Flask', 'FastAPI', 'PostgreSQL', 'Azure', 'Docker'],
-    outcome: 'Improved deployment frequency by 3x, reduced system coupling, enabled independent scaling',
-    image: '/projects/microservices.png',
-    links: {},
-    featured: false,
-    category: ['Backend', 'Architecture']
-  }
+  // {
+  //   id: 'websocket-pipeline',
+  //   title: 'Real-Time WebSocket Pipeline',
+  //   subtitle: 'Enterprise Application',
+  //   description: 'High-performance WebSocket infrastructure for real-time data streaming in healthcare applications',
+  //   problem: 'Need for instant data updates in medical review workflows without page refreshes',
+  //   solution: 'Designed and implemented scalable WebSocket pipeline with FastAPI backend and React frontend, handling concurrent connections efficiently',
+  //   tech: ['FastAPI', 'WebSockets', 'React', 'Redis', 'PostgreSQL'],
+  //   outcome: 'Enabled real-time collaboration features, improving workflow efficiency by 40%',
+  //   image: '/projects/websocket.png',
+  //   links: {
+  //     caseStudy: '/projects/websocket-pipeline'
+  //   },
+  //   featured: false,
+  //   category: ['Backend', 'Real-time']
+  // },
+  // {
+  //   id: 'microservices-platform',
+  //   title: 'Microservices Architecture Migration',
+  //   subtitle: 'System Design',
+  //   description: 'Designed and implemented microservices architecture for file processing and metadata management',
+  //   problem: 'Monolithic architecture causing scalability issues and deployment bottlenecks',
+  //   solution: 'Broke down monolith into focused microservices with clear boundaries, implemented BFF pattern for optimized payloads',
+  //   tech: ['Flask', 'FastAPI', 'PostgreSQL', 'Azure', 'Docker'],
+  //   outcome: 'Improved deployment frequency by 3x, reduced system coupling, enabled independent scaling',
+  //   image: '/projects/microservices.png',
+  //   links: {},
+  //   featured: false,
+  //   category: ['Backend', 'Architecture']
+  // }
 ];
 
 export const projectCategories = [
