@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/shivam_portfolio/',
   plugins: [react()],
   server: {
     port: 3000,
